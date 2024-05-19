@@ -1,1 +1,1 @@
-# thesis-shinobi
+# shinobi-thesis

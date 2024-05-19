@@ -1,0 +1,46 @@
+{
+   "debugLog": false,
+   "subscriptionId": "",
+   "port": 8080,
+   "passwordType": "sha256",
+   "addStorage": [
+      {
+         "name": "second",
+         "path": "__DIR__/videos2"
+      }
+   ],
+   "pluginKeys": {
+      "undefined": "a252a156589fee35890a8cc951e0662dabf73ffbcc6c23062a070b631c64",
+      "Tensorflow": "cd4c279d9b09c61d929b8db7524fa0a26449c6b60b66f05f31d0a00bb0ba"
+   },
+   "db": {
+      "host": "222.252.25.37",
+      "user": "root",
+      "password": "171ca9e4eb616be4a8007db9fa1da1091480f211e39c2ed8cc56cd6d6d25b09a",
+      "database": "ccio",
+      "port": 3307
+   },
+   "cron": {
+      "key": "359053720b87b93120bc3ec74797686a1ccdcf074a19b960c00612a4e736"
+   },
+   "mail": {
+      "service": "gmail",
+      "auth": {
+         "user": "your_email@gmail.com",
+         "pass": "your_password_or_app_specific_password"
+      }
+   },
+   "detectorMergePamRegionTriggers": true,
+   "doSnapshot": true,
+   "discordBot": false,
+   "dropInEventServer": false,
+   "ftpServer": false,
+   "oldPowerVideo": false,
+   "wallClockTimestampAsDefault": true,
+   "videosDir": "__DIR__/videos",
+   "enableFaceManager": false,
+   "useBetterP2P": true,
+   "smtpServerOptions": {
+      "allowInsecureAuth": true
+   }
+}
